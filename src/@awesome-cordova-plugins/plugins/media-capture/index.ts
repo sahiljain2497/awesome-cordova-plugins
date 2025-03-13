@@ -96,6 +96,15 @@ export interface CaptureVideoOptions {
    * Quality of the video. This parameter can only be used with Android.
    */
   quality?: number;
+   /**
+   * Facing of the camera. This parameter can only be used with IOS.
+   */
+  frontFacing?: boolean;
+
+   /**
+   * Save the video to gallery. This parameter can only be used with IOS.
+   */
+  saveToGallery?: boolean;
 }
 
 export interface ConfigurationData {
