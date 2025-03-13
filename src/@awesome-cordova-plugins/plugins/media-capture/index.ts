@@ -96,12 +96,12 @@ export interface CaptureVideoOptions {
    * Quality of the video. This parameter can only be used with Android.
    */
   quality?: number;
-   /**
+  /**
    * Facing of the camera. This parameter can only be used with IOS.
    */
   frontFacing?: number;
 
-   /**
+  /**
    * Save the video to gallery. This parameter can only be used with IOS.
    */
   saveToGallery?: number;
@@ -158,10 +158,10 @@ export interface ConfigurationData {
  */
 @Plugin({
   pluginName: 'MediaCapture',
-  plugin: 'cordova-plugin-media-capture',
+  plugin: 'https://github.com/aman-geekybunch/cordova-plugin-media-capture.git',
   pluginRef: 'navigator.device.capture',
   repo: 'https://github.com/aman-geekybunch/cordova-plugin-media-capture.git',
-  platforms: ['Android', 'Browser', 'iOS', 'Windows'],
+  platforms: ['Android', 'iOS'],
 })
 @Injectable()
 export class MediaCapture extends AwesomeCordovaNativePlugin {
