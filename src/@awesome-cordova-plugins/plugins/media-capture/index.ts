@@ -160,7 +160,7 @@ export interface ConfigurationData {
   pluginName: 'MediaCapture',
   plugin: 'cordova-plugin-media-capture',
   pluginRef: 'navigator.device.capture',
-  repo: 'https://github.com/apache/cordova-plugin-media-capture',
+  repo: 'https://github.com/aman-geekybunch/cordova-plugin-media-capture.git#ios-video-save-and-camera-facing-option',
   platforms: ['Android', 'Browser', 'iOS', 'Windows'],
 })
 @Injectable()
