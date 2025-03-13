@@ -99,12 +99,12 @@ export interface CaptureVideoOptions {
    /**
    * Facing of the camera. This parameter can only be used with IOS.
    */
-  frontFacing?: boolean;
+  frontFacing?: number;
 
    /**
    * Save the video to gallery. This parameter can only be used with IOS.
    */
-  saveToGallery?: boolean;
+  saveToGallery?: number;
 }
 
 export interface ConfigurationData {
